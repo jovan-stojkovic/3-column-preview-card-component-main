@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+:root {
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  color: var(--Very-light-gray);
+}
+
+.container {
+  margin: 200px auto;
+  display: flex;
+  max-width: 900px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.car-info-container {
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  height: auto;
+  width: 60px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 2.7rem;
+  margin-bottom: 30px;
+}
+
+p {
+  line-height: 28px;
+  margin-bottom: 65px;
+}
+
+.orange {
+  background-color: var(--Bright-orange);
+  border-radius: 10px 0 0 10px;
+}
+
+.blue {
+  background-color: var(--Dark-cyan);
+}
+
+.green {
+  background-color: var(--Very-dark-cyan);
+  border-radius: 0 10px 10px 0;
+}
+
+button {
+  all: unset;
+  height: 50px;
+  width: 150px;
+  background-color: var(--Very-light-gray);
+  text-align: center;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.orange-button {
+  color: var(--Bright-orange);
+  border: solid var(--Very-light-gray);
+}
+
+.orange-button:active {
+  background-color: var(--Bright-orange);
+  border: solid var(--Very-light-gray);
+  color: var(--Very-light-gray);
+}
+
+.blue-button {
+  color: var(--Dark-cyan);
+  border: solid var(--Very-light-gray);
+}
+
+.blue-button:active {
+  background-color: var(--Dark-cyan);
+  border: solid var(--Very-light-gray);
+  color: var(--Very-light-gray);
+}
+
+.green-button {
+  color: var(--Very-dark-cyan);
+  border: solid var(--Very-light-gray);
+}
+
+.green-button {
+  color: var(--Dark-cyan);
+  border: solid var(--Very-light-gray);
+}
+
+.green-button:active {
+  background-color: var(--Very-dark-cyan);
+  border: solid var(--Very-light-gray);
+  color: var(--Very-light-gray);
+}
+
