@@ -19,7 +19,7 @@
 }
 
 .container {
-  margin: 200px auto;
+  margin: 200px auto 200px;
   display: flex;
   max-width: 900px;
   height: 500px;
@@ -115,3 +115,18 @@ button:hover {
   color: var(--Very-light-gray);
 }
 
+@media (max-width: 850px) {
+  .container {
+    flex-direction: column;
+    max-width: 310px;    
+  }
+
+  .orange {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .green {
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 200px;
+  }
+}
